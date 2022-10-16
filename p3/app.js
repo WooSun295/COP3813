@@ -16,7 +16,6 @@ submit.addEventListener("click", function (e) {
    updateValues(nums);
    results.classList.remove("hidden");
    input.value = "";
-   console.log(nums);
 });
 
 function checkError(arr) {
