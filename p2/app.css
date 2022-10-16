@@ -1,0 +1,11 @@
+img {
+   aspect-ratio: 2/1;
+}
+
+td {
+   text-transform: capitalize;
+}
+
+h1 {
+   font-size: 50px;
+}
