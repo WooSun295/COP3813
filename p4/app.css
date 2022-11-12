@@ -1,0 +1,28 @@
+td {
+   font-size: 50px;
+   color: white;
+}
+
+div {
+   display: flex;
+   justify-content: center;
+}
+
+hr {
+   color: white;
+   font-size: 10px;
+   margin-bottom: 50px;
+}
+
+body {
+   background-color: black;
+}
+
+.modal-header {
+   color: black;
+}
+
+.title {
+   color: white;
+   margin: 20px;
+}
