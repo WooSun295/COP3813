@@ -12,6 +12,7 @@ hr {
    color: white;
    font-size: 10px;
    margin-bottom: 50px;
+   margin-top: 0px;
 }
 
 body {
@@ -24,5 +25,10 @@ body {
 
 .title {
    color: white;
-   margin: 20px;
+   margin: 0px;
+   padding: 20px;
+}
+
+a {
+   margin-left: 10px;
 }
