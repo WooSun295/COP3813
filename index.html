@@ -1,22 +1,93 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Projects</title>
-    </head>
-    <body>
-        <h1>Welcome to my projects on lamp.cse.fau.edu</h1>
-        <p>
-            These are the projects available on this area:
-        </p>
-        <ul>
-            <li><a href="./p1/index.html">Project 1</a></li>
-            <li><a href="./p2/index.html">Project 2</a></li>
-            <li><a href="./p3/index.html">Project 3</a></li>
-            <li><a href="./p4/index.html">Project 4</a></li>
-            <li><a href="./p5/index.php">Project 5</a></li>
-            <li><a href="./p6/index.php">Project 6</a></li>
-            <li><a href="./p7/index.php">Project 7</a></li>
-            <li><a href="./p8/index.html">Project 8</a></li>
-        </ul>
-    </body>
+   <head>
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="app.css" />
+      <title>My Projects</title>
+   </head>
+   <body>
+      <nav aria-label="breadcrumb">
+         <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+         </ol>
+      </nav>
+      <h1 class="display-2">Welcome to my projects on lamp.cse.fau.edu</h1>
+      <p>These are the projects available on this area:</p>
+      <div class="container-fluid text-center">
+         <div class="row justify-content-evenly">
+            <div class="flip-card col 1">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <h2 class="fs-1">Project 1</h2>
+                  </div>
+                  <div class="flip-card-back">
+                     <h3 class="fs-2">Home Page</h3>
+                     <p>
+                        Using basic HTML5 and CSS, created a simple site with tables,
+                        imgs, and external links
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="flip-card col 2">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <h2 class="fs-1">Project 2</h2>
+                  </div>
+                  <div class="flip-card-back">
+                     <h3 class="fs-2">Web Page</h3>
+                     <p>Updated Project 1 using CSS and Bootstrap</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="flip-card col 3">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <h2 class="fs-1">Project 3</h2>
+                  </div>
+                  <div class="flip-card-back">
+                     <h3 class="fs-2">JavaScript</h3>
+                     <p>
+                        Using JavaScript, designed a simple and visually pleasant app that
+                        performed simple statistical analysis on any set of numbers
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="flip-card col 4">
+               <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <h2 class="fs-1">Project 4</h2>
+                  </div>
+                  <div class="flip-card-back">
+                     <h3 class="fs-2">JavaScipt and jQuery</h3>
+                     <p>
+                        Designed a fully functional and visually pleasant Tic-Tac-Toe game
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- <ul>
+         <li class="container"><a href="./p1/index.html">Project 1</a></li>
+         <li class="container"><a href="./p2/index.html">Project 2</a></li>
+         <li class="container"><a href="./p3/index.html">Project 3</a></li>
+         <li class="container"><a href="./p4/index.html">Project 4</a></li>
+      </ul> -->
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+         crossorigin="anonymous"
+      ></script>
+      <script src="app.js"></script>
+   </body>
 </html>

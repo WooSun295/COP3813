@@ -11,8 +11,7 @@
    margin: 0;
 }
 
-#footers footer,
-#footers a {
+#footers footer {
    padding-left: 10px;
 }
 
@@ -48,11 +47,11 @@ header {
    left: 25px;
 }
 
-nav {
-   padding-top: 15px;
+li {
+   padding: 3px;
 }
 
-li {
+nav > ol > li {
    padding: 3px;
 }
 

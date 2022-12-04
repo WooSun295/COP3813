@@ -9,3 +9,7 @@ td {
 h1 {
    font-size: 50px;
 }
+
+nav > ol > li {
+   padding: 3px;
+}
